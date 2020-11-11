@@ -1,0 +1,7 @@
+
+<h3>Appointment:</h3>
+<%= @appt.appt_format %>
+<br>
+Doctor: <%= link_to @appt.doctor.name, @appt.doctor %>
+<br>
+Patient: <%= link_to @appt.patient.name, @appt.patient %>

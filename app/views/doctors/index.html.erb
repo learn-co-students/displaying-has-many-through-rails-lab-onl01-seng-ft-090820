@@ -1,0 +1,7 @@
+<h1>Doctors Index:</h1>
+<br>
+<ul>
+<% @doctors.each do |doc| %>
+    <li><%= link_to doc.name, doc %></li>
+<% end %>
+</ul>
